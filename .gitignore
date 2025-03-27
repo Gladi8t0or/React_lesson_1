@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Игнорируем все SSH-ключи
+~/.ssh/*
+# Если SSH-ключи внутри репозитория (что небезопасно), добавьте:
+id_rsa
+id_rsa.pub
+*.pem
+yes
+yes.pub
